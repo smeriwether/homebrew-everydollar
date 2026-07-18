@@ -3,8 +3,9 @@ class Everydollar < Formula
 
   desc "Read-only CLI for EveryDollar budget data, using your Chrome session"
   homepage "https://github.com/smeriwether/everydollar-cli"
-  url "https://github.com/smeriwether/everydollar-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0fc16ace3676038093e2d0459a2863336c39a868946fd6e074ae9c0d0c54ec18"
+  url "https://github.com/smeriwether/everydollar-cli/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "d1de20ba4ad13b4026bee7a3506fb2630b415172e6411894cad60d4128f8bbec"
+  license "MIT"
 
   depends_on "python@3.13"
 
