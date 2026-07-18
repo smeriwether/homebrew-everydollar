@@ -3,14 +3,13 @@ class Everydollar < Formula
 
   desc "Read-only CLI for EveryDollar budget data, using your Chrome session"
   homepage "https://github.com/smeriwether/everydollar-cli"
-  url "https://github.com/smeriwether/everydollar-cli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "d1de20ba4ad13b4026bee7a3506fb2630b415172e6411894cad60d4128f8bbec"
+  url "https://github.com/smeriwether/everydollar-cli/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "77713accfc5e1faab951fd5b4340665f92cef52bab22f8e38b9617e16d61adb7"
   license "MIT"
-
-  depends_on "python@3.13"
 
   # Reads Chrome's cookie store, which only exists on macOS in this form.
   depends_on :macos
+  depends_on "python@3.13"
 
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
