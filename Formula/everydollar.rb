@@ -3,8 +3,8 @@ class Everydollar < Formula
 
   desc "Read-only CLI for EveryDollar budget data, using your Chrome session"
   homepage "https://github.com/smeriwether/everydollar-cli"
-  url "https://github.com/smeriwether/everydollar-cli/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "77713accfc5e1faab951fd5b4340665f92cef52bab22f8e38b9617e16d61adb7"
+  url "https://github.com/smeriwether/everydollar-cli/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "1a3a903fa1f9d85619b02ae0ca0a60aaa153019dfdbaee1d0e5fb0c4f0fbd7b3"
   license "MIT"
 
   # Reads Chrome's cookie store, which only exists on macOS in this form.
